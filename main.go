@@ -1,6 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/sidgupt12/Ping-Bot/bot"
+	"github.com/sidgupt12/Ping-Bot/config"
+)
 
 func main() {
 	err := config.ReadConfig()
